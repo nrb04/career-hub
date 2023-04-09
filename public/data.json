@@ -1,0 +1,166 @@
+[
+  {
+    "id": "job001",
+    "company_logo": "https://example.com/logo1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Acme Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $150,000",
+    "job_description": "We are seeking a highly skilled software engineer to join our team...",
+    "job_responsibility": "• Develop high-quality software solutions\n• Collaborate with cross-functional teams...",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contact_information": {
+      "phone": "+1 (555) 123-4567",
+      "email": "jobs@acmeinc.com"
+    }
+  },
+  {
+    "id": "job002",
+    "company_logo": "https://example.com/logo2.png",
+    "job_title": "Marketing Manager",
+    "company_name": "Big Co.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $120,000",
+    "job_description": "We are looking for an experienced marketing manager to oversee...",
+    "job_responsibility": "• Develop and implement marketing strategies\n• Manage marketing campaigns...",
+    "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "+1 (555) 234-5678",
+      "email": "jobs@bigco.com"
+    }
+  },
+  {
+    "id": "job003",
+    "company_logo": "https://example.com/logo3.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Creative Agency",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "job_description": "We are seeking a talented graphic designer to join our creative team...",
+    "job_responsibility": "• Create visual concepts\n• Design graphics and layouts for print and digital media...",
+    "educational_requirements": "Bachelor's or Master's degree in Graphic Design or related field",
+    "experiences": "3+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "+1 (555) 345-6789",
+      "email": "jobs@creativeagency.com"
+    }
+  },
+  {
+    "id": "job004",
+    "company_logo": "https://example.com/logo4.png",
+    "job_title": "Product Manager",
+    "company_name": "Tech Startup",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$120,000 - $160,000",
+    "job_description": "We are looking for an experienced product manager to join our team...",
+    "job_responsibility": "• Develop and execute product strategy\n• Collaborate with cross-functional teams...",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "5+ years of experience in product management",
+    "contact_information": {
+      "phone": "+1 (555) 456-7890",
+      "email": "jobs@techstartup.com"
+    }
+  },
+  {
+    "id": "job005",
+    "company_logo": "https://example.com/logo5.png",
+    "job_title": "Sales Representative",
+    "company_name": "International Company",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "job_description": "We are seeking a motivated sales representative to join our team...",
+    "job_responsibility": "• Develop and maintain relationships with clients\n• Identify and pursue new business opportunities...",
+    "educational_requirements": "Bachelor's or Master's degree in Business or related field",
+    "experiences": "3+ years of experience in sales",
+    "contact_information": {
+      "phone": "+1 (555) 567-8901",
+      "email": "jobs@internationalcompany.com"
+    }
+  },
+  {
+    "id": "job006",
+    "company_logo": "https://example.com/logo6.png",
+    "job_title": "Human Resources Manager",
+    "company_name": "Large Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "Chicago",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "job_description": "We are looking for an experienced human resources manager to oversee...",
+    "job_responsibility": "• Develop and implement HR policies\n• Manage employee relations...",
+    "educational_requirements": "Bachelor's or Master's degree in Human Resources or related field",
+    "experiences": "5+ years of experience in human resources",
+    "contact_information": {
+      "phone": "+1 (555) 678-9012",
+      "email": "jobs@largecorporation.com"
+    }
+  },
+  {
+    "id": "job008",
+    "company_logo": "https://example.com/logo8.png",
+    "job_title": "Marketing Manager",
+    "company_name": "Consumer Goods Company",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $130,000",
+    "job_description": "We are looking for an experienced marketing manager to join our team...",
+    "job_responsibility": "• Develop and execute marketing campaigns\n• Conduct market research...",
+    "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "+1 (555) 789-0123",
+      "email": "jobs@consumergoodscompany.com"
+    }
+  },
+  {
+    "id": "job009",
+    "company_logo": "https://example.com/logo9.png",
+    "job_title": "Software Engineer",
+    "company_name": "Tech Giant",
+    "remote_or_onsite": "Onsite",
+    "location": "Seattle",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$150,000 - $200,000",
+    "job_description": "We are seeking a talented software engineer to join our team...",
+    "job_responsibility": "• Develop and maintain software systems\n• Collaborate with cross-functional teams...",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "7+ years of experience in software engineering",
+    "contact_information": {
+      "phone": "+1 (555) 901-2345",
+      "email": "jobs@techgiant.com"
+    }
+  },
+  {
+    "id": "job010",
+    "company_logo": "https://example.com/logo10.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Creative Agency",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40,000 - $60,000",
+    "job_description": "We are seeking a talented graphic designer to work on various projects...",
+    "job_responsibility": "• Develop creative designs\n• Collaborate with clients and team members...",
+    "educational_requirements": "Bachelor's or Master's degree in Graphic Design or related field",
+    "experiences": "3+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "+1 (555) 234-5678",
+      "email": "jobs@creativeagency.com"
+    }
+  }
+]
+
+

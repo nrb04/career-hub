@@ -1,11 +1,11 @@
 import React from 'react';
-
+import LazyHome from './babyhome/LazyHome';
+import WorkingHome from './babyhome/WorkingHome';
 const Home = () => {
     return (
         <div>
-            hello asdl;askdalskd
-            
-
+            <LazyHome></LazyHome>
+            <WorkingHome></WorkingHome>
         </div>
     );
 };
