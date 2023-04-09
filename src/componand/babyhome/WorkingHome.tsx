@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import JobCard from './JobCard';
 
 const WorkingHome = () => {
+    const jobcards = useLoaderData();
+    console.log(jobcards);
+    
     return (
         <div>
-            futfute sundor 
-            
+           { jobcards.map(jobcard => <JobCard
+                key={jobcard.id}
+                jobcard={jobcard}></JobCard>
+                
+            )
+                
+
+              } 
+
         </div>
     );
 };

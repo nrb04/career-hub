@@ -4,7 +4,7 @@ import WorkingHome from './babyhome/WorkingHome';
 const Home = () => {
     return (
         <div>
-            <LazyHome></LazyHome>
+            {/* <LazyHome></LazyHome> */}
             <WorkingHome></WorkingHome>
         </div>
     );
