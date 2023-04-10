@@ -22,7 +22,7 @@ const Jobdetails = () => {
 
   const handleApply = () => {
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
-    const jobInfo = { id: job.id, title: job.title, company: job.company };
+    const jobInfo = { id: job.id, title: job.job_title, company: job.company_name };
     appliedJobs.push(jobInfo);
     localStorage.setItem('appliedJobs', JSON.stringify(appliedJobs));
     setApplied(true);
