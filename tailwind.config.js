@@ -12,9 +12,16 @@ content: [
             'white': '#ffffff',
             'purple': '#3f3cbb',
             'blue': '#818DFE',
-            'hobina' : '#f5f3ff'
+            'hobina': '#f5f3ff',
+            'violet': '#3f3cbb',
+            'batam' : '#7E90FE'
         },
-    extend: {},
+        extend: {
+        
+
+
+            
+    },
 },
 plugins: [require("tw-elements/dist/plugin")]
 }

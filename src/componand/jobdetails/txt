@@ -83,3 +83,19 @@ const WorkingHome = () => {
 };
 
 export default WorkingHome;
+
+
+
+
+<div className='lg:flex justify-center  md:mx-auto '>{Array.isArray(jobcards) &&
+        (showAll
+          ? jobcards.map((jobcard) => (
+              <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
+                <JobCard jobcard={jobcard} />
+              </Link>
+            ))
+          : jobcards.slice(0, 4).map((jobcard) => (
+              <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
+                <JobCard jobcard={jobcard} />
+              </Link>
+          )))}</div>

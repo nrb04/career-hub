@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import { useParams, useLocation } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 
 
 const Jobdetails = () => {
@@ -30,7 +30,8 @@ const Jobdetails = () => {
 
   return (
     <div>
-      <h1>{job.id}</h1>
+      <div>
+        <h1>{job.id}</h1>
       <h2>{job.company}</h2>
       <p>{job.description}</p>
       <button onClick={handleApply} disabled={applied}>
@@ -40,6 +41,7 @@ const Jobdetails = () => {
       <p>{job.company_name}</p>
       <p>{job.location}</p>
       <p>{job.remote_or_onsite}</p>
+      </div>
     </div>
   );
 };

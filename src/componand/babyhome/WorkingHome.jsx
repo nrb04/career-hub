@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import JobCard from './JobCard';
+import './workingHome.css'
 
 const WorkingHome = () => {
   const jobcards = useLoaderData();
@@ -13,23 +14,23 @@ const WorkingHome = () => {
   };
 
   return (
-    <div className="data-box-container">
-      {Array.isArray(jobcards) &&
+  
+      <div className="container shadow-2xl lg:px-4 py-4 my-5">
+       <div className='lg:flex PlexContainer  md:mx-auto '>{Array.isArray(jobcards) &&
         (showAll
           ? jobcards.map((jobcard) => (
-              <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
-                <JobCard jobcard={jobcard} />
-              </Link>
+                <JobCard key={jobcard.id} jobcard={jobcard} />
+           
             ))
           : jobcards.slice(0, 4).map((jobcard) => (
-              <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
-                <JobCard jobcard={jobcard} />
-              </Link>
-            )))}
-      {!showAll && jobcards.length > 4 && (
-        <button onClick={handleShowAll}>Show All</button>
-      )}
-    </div>
+                <JobCard key={jobcard.id} jobcard={jobcard} />
+             
+          )))}</div>
+      <div>{!showAll && jobcards.length > 4 && (
+        <button className='mt-7 px-4 py-3 bg-batam rounded-md outline-none focus:ring-4 shadow-lg mx-5 ' onClick={handleShowAll}>Show All</button>
+      )}</div>
+      </div>
+   
   );
 };
 

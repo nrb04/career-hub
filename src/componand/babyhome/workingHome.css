@@ -1,0 +1,17 @@
+.PlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    width: 80%;
+    flex-direction: row;
+}
+
+.PlexContainer div {
+    text-align: start;
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+
+}
