@@ -1,7 +1,11 @@
 import React from 'react';
+import JobDetails from '../jobdetails/Jobdetails';
+import { Link } from 'react-router-dom';
+
+
 
 const JobCard = ({jobcard}) => {
-    const { id,company_logo,company_name } = jobcard;
+    const { id, job_title, company_name, location, remote_or_onsite } = jobcard;
     return (
         <div
   className="rounded-2xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 shadow-xl"
@@ -14,7 +18,13 @@ const JobCard = ({jobcard}) => {
 
       <p className="mt-2 text-sm text-gray-500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, adipisci.
-      </p>
+            </p>
+            
+             <h2>{job_title}</h2>
+            <h3>{company_name}</h3>
+            <p>{location}</p>
+            <p>{remote_or_onsite}</p>
+            <Link key={id} to={`/jobs/${id}`}>View details</Link>
     </div>
   </a>
 </div>

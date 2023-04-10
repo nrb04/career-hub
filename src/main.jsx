@@ -4,7 +4,7 @@ import App from './App'
 import MainHome from './componand/MainHome';
 import ErrorPage from "./ErrorPage";
 import Home from './componand/Home';
-import Apply from './componand/Apply';
+import Apply from './componand/Applied';
 
 
 import {
@@ -14,6 +14,7 @@ import {
 import './index.css'
 import Blog from './componand/Blog';
 import Statistics from './componand/Statistics';
+import Jobdetails from './componand/jobdetails/Jobdetails';
 
 
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
        {
         path: '/Apply',
         element: <Apply></Apply>,
+      },
+       {
+        path: '/Jobs/:id',
+        element: <Jobdetails></Jobdetails>,
       },
         {
         path: '/Blog',
