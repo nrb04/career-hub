@@ -1,7 +1,7 @@
 [
   {
     "id": "job001",
-    "company_logo": "https://example.com/logo1.png",
+    "company_logo": "/public/assets/Logo/google-1-11-1.png",
     "job_title": "Software Engineer",
     "company_name": "Acme Inc.",
     "remote_or_onsite": "Remote",
