@@ -38,7 +38,7 @@ const router = createBrowserRouter([
       },
        {
         path: '/Jobs/:id',
-        element: <Jobdetails></Jobdetails>,
+         element: <Jobdetails></Jobdetails>,
       },
         {
         path: '/Blog',
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
       
     ],
 
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
   },
   
 

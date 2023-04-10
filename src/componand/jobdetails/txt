@@ -1,0 +1,46 @@
+
+ const id = parseInt(match.params.id, 10);
+const { job_title, company_name, location, remote_or_onsite } = jobcard.find(obj => obj.id === id);
+  
+
+
+
+
+   const param = parseInt(match.params.id, 10);
+const { job_title, company_name, location, remote_or_onsite } = jobcards.find(obj => obj.id === param);
+
+
+
+  const [jobs, setJobs] = useState({});
+   useEffect(() => {
+    fetch("/data.json")
+      .then((response) => response.json())
+      .then((jobs) =>thisdata(jobs) );
+  }, []);
+
+  console.log(jobs);
+
+console.log(`Job ${id} has been applied`)
+
+
+
+//data load 4 and 6
+    {showAll
+          ?jobcards.map((jobcard) =>
+              <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
+                <JobCard jobcard={jobcard} />
+              </Link>)
+          
+                :jobcards.slice(0,4).map((jobcard) =>
+                    <Link key={jobcard.id} to={`/jobs/${jobcard.id}`}>
+                  <JobCard jobcard={jobcard} />
+   </Link>)}
+      {!showAll && jobcards.length > 4 && (
+        <button onClick={handleShowAll}>Show All</button>
+)
+}
+      
+
+const local = useLocation();
+  const { jobcards } = local.state;
+  console.log(jobcards);

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const JobCard = ({jobcard}) => {
+const JobCard = ({jobcard, jobcards}) => {
     const { id, job_title, company_name, location, remote_or_onsite } = jobcard;
     return (
         <div
@@ -24,7 +24,8 @@ const JobCard = ({jobcard}) => {
             <h3>{company_name}</h3>
             <p>{location}</p>
             <p>{remote_or_onsite}</p>
-            <Link key={id} to={`/jobs/${id}`}>View details</Link>
+            <Link key={id} to={{ pathname: `/jobs/${id}`,state: { jobcards },
+          }}>View details</Link>
     </div>
   </a>
 </div>
