@@ -30,7 +30,7 @@ const Jobdetails = () => {
 
   return (
     <div>
-      <div>
+     <div>
         <h1>{job.id}</h1>
       <h2>{job.company}</h2>
       <p>{job.description}</p>
@@ -47,3 +47,5 @@ const Jobdetails = () => {
 };
 
 export default Jobdetails;
+
+ 

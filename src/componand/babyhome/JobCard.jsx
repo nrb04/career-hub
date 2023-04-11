@@ -23,8 +23,7 @@ const JobCard = ({jobcard,}) => {
 <MapPinIcon className='h-4 w-4' />{location}<CurrencyBangladeshiIcon className='h-4 w-4' />Salary: {salary}
 </h3>
             
-            <Link key={id} to={{ pathname: `/jobs/${id}`
-          }}><button className='mt-2 px-4 py-1 bg-batam rounded-md outline-none focus:ring-4 shadow-lg  '>View details</button></Link> 
+            <Link key={id} to={{ pathname: `/jobs/${id}`}}><button className='mt-2 px-4 py-1 bg-batam rounded-md outline-none focus:ring-4 shadow-lg  '>View details</button></Link> 
            </div>
   </div>
         
