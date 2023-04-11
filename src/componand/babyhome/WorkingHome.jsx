@@ -15,8 +15,8 @@ const WorkingHome = () => {
 
   return (
   
-      <div className="container shadow-2xl lg:px-4 py-4 my-5">
-       <div className='lg:flex PlexContainer  md:mx-auto '>{Array.isArray(jobcards) &&
+      <div className="container mx-auto shadow-2xl lg:px-4 py-4 my-5">
+       <div className='md:flex PlexContainer  mx-auto '>{Array.isArray(jobcards) &&
         (showAll
           ? jobcards.map((jobcard) => (
                 <JobCard key={jobcard.id} jobcard={jobcard} />
