@@ -4,10 +4,10 @@ const LazyHome = () => {
     return (
         <div>
             <div className="header1">
-                <section className="bg-halkakala ">
-	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			<h1 className="text-5xl font-bold leading-none sm:text-6xl">Start Career or
+                <section className=" bg-halkakala  ">
+	<div className="container flex flex-col justify-center pt-12 px-16 md:-mt-10 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+		<div className="flex flex-col justify-center   p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+			<h1 className="text-5xl  font-bold leading-none sm:text-6xl">Start Career or
 				<span className="text-purple"> JOB  </span>from today
 			</h1>
 			<p className="mt-6 mb-8 text-lg  sm:mb-12"> employment opportunities and help employers find suitable candidates to fill their job openings. 

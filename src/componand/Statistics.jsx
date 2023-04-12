@@ -51,7 +51,16 @@ const data = [
   },
 ];
 
-    return (
+  return (
+  <div>
+       <div className="relative z-0" >
+           
+                <div className='flex flex-row relative items-center  bg-himage bg-opacity-25 pt-8 -mt-8'>
+                <div className='basis-1/4'><img src='/public/assets/Images/Vector.png' alt="" className='absolute bottom-0 ' /></div>
+                <div className='basis-2/4'><p className="text-2xl p-28">The quick brown fox ...</p></div>
+                <div className='basis-1/4'><img src="/public/assets/Images/Vector-1.png" alt="" className='absolute top-0 ' /> </div>
+            </div>
+        </div>
       <RadarChart className="mx-auto"
       
       cx={300}
@@ -71,7 +80,9 @@ const data = [
         fill="#8884d8"
         fillOpacity={0.6}
       />
-    </RadarChart>
+      </RadarChart>
+      
+      </div>
     );
 };
 

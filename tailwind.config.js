@@ -16,7 +16,18 @@ content: [
             'violet': '#3f3cbb',
             'batam': '#7E90FE',
             'halkakala': '#F4F4F4',
-            'himage' : '#7E90FE'
+            'himage': '#cffafe',
+            'tahiti': {
+                    100: '#cffafe',
+                    200: '#a5f3fc',
+                    300: '#67e8f9',
+                    400: '#22d3ee',
+                    500: '#06b6d4',
+                    600: '#0891b2',
+                    700: '#0e7490',
+                    800: '#155e75',
+                    900: '#164e63',
+                                },
         },
         fontSize: {
       sm: '0.8rem',
@@ -41,6 +52,18 @@ content: [
       black: '900',
     },
         extend: {
+            flexBasis: {
+                'basis-2/4': '50%',
+              'basis-1/4':'25%',  
+            },
+            zIndex: {
+                '20': '20',
+                '10': '10',
+                '0': '0',
+                
+                },
+                        
+           
         
 
 

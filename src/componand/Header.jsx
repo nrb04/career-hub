@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <div >
+      
 
-  <nav className="bg-white py-2 md:py-4">
+  <nav className= "md:fixed z-50 top-0 py-2 md:py-4">
     <div className="container px-4 mx-auto md:flex md:items-center">
 
       <div className="flex justify-between items-center">
-        <Link to="/" ><img className='h-16 w-36 ml-16' src="/public/assets/Icons/MyIcon.png" alt="" /></Link>
+        <Link to="/" ><img className='h-24 w-36 ml-16' src="/public/assets/Icons/MyIcon.png" alt="" /></Link>
    
       </div>
 
@@ -27,7 +27,7 @@ const Header = () => {
 
 
 
-</div>
+
         </div>
     );
 };
