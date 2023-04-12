@@ -15,7 +15,7 @@ const WorkingHome = () => {
 
   return (
   
-      <div className="container  mx-auto shadow-2xl lg:px-4 py-4 my-5">
+      <div className="container  mx-auto shadow-md lg:px-4 py-4 my-5">
        <div className='md:flex PlexContainer md:justify-center mx-auto '>{
         (showAll
           ? jobcards.map((jobcard) => (
@@ -27,7 +27,7 @@ const WorkingHome = () => {
              
           )))}</div>
       <div>{!showAll && jobcards.length > 4 && (
-        <button className='mt-7 px-4 py-3 bg-batam rounded-md outline-none focus:ring-4 shadow-lg mx-5 ' onClick={handleShowAll}>Show All</button>
+        <button className='mt-7 px-4 py-3 bg-batam rounded-md outline-none focus:ring-4  mx-5 ' onClick={handleShowAll}>Show All</button>
       )}</div>
       </div>
    

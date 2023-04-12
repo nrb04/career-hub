@@ -40,7 +40,7 @@ const Jobdetails = () => {
            
         <div> 
 
-  <div className='flex flex-row items-end  mx-24  bg-himage  bg-opacity-75 z-0 '>
+  <div className='flex flex-row items-end mt-12 mx-2  bg-himage  bg-opacity-75 z-0 '>
             <div className='basis-2/3 flex-col text-left text-2xl p-16  '>
               <h2> <b>Job Description: </b> { job.job_description}</h2>
               <h2><b>Job Responsibility:</b> { job.job_responsibility}</h2>
@@ -49,19 +49,23 @@ const Jobdetails = () => {
             
             </div>
             <div className='basis-1/3 flex-col box-content text-left h-96 w-96 p-4 border-2 bg-skyblue bg-opacity-50 '>
-              <h2 className='text-2xl'><b>Job Details</b></h2>
+              <h2 className='text-3xl m-1' ><b>Job Details</b></h2>
              <hr className="my-1 h-0.5 border-t-1 bg-neutral-100 opacity-100 dark:opacity-50" />
-              <h2><b>salary</b>{job.salary } </h2>
-              <h2><b>Job Title</b>{job.job_title}</h2>
+              <h2 className='m-1'><b >salary</b>{job.salary } </h2>
+              <h2 className='m-1'><b>Job Title</b>{job.job_title}</h2>
               
-              <h2 ><b>contact_information</b></h2>
-              <hr className="my-2 h-0.5 border-t-1 bg-neutral-100 opacity-100 dark:opacity-50" />
-              <h2><b></b>{ job.contact_information.phone}</h2>
-              <h2><b></b>{job.contact_information.email} </h2>
-              <h2><b>Job Title</b>{job.address}</h2>
-
-                  <button onClick={handleApply} disabled={applied}>
-        {applied ? 'Applied' : 'Apply Now'}
+              <h2 ><b className='text-3xl mt-4'>Contact Information</b></h2>
+              <hr className="my-2 h-0.5 border-t-1 bg-primary-200 opacity-100 dark:opacity-50" />
+              <h2 className='m-1'><b>Phone: </b>{ job.contact_information.phone}</h2>
+              <h2 className='m-1'><b>Email: </b>{job.contact_information.email} </h2>
+              <h2 className='m-1'><b>Address: </b>{job.address}</h2>
+<button
+  onClick={handleApply} disabled={applied}
+  className=" inline-block rounded bg-primary-200 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200">
+   {applied ? 'Applied' : 'Apply Now'}
+</button>
+                  <button >
+       
       </button>
         
             
