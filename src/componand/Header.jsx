@@ -10,7 +10,7 @@ const Header = () => {
     <div className="container px-4 mx-auto md:flex md:items-center">
 
       <div className="flex justify-between items-center">
-        <Link to="/" ><img className='h-24 w-36 ml-16' src="/public/assets/Icons/MyIcon.png" alt="" /></Link>
+        <Link to="/" ><img className='h-20 w-24 ml-16' src="/assets/Icons/MyIcon.png" alt="" /></Link>
    
       </div>
 

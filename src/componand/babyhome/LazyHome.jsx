@@ -32,7 +32,7 @@ const LazyHome = () => {
                 <div><div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div className="grid gap-10 mx-auto sm:grid-cols-2  lg:grid-cols-4 lg:max-w-screen-lg">
     <div className='box-border bg-hobina shadow-lg px-5 py-5'>
-      <img className="object-cover w-26 h-24 rounded shadow" src="/public/assets/Icons/accounts1.png" alt="Person" />
+      <img className="object-cover w-26 h-24 rounded shadow" src="/assets/Icons/accounts1.png" alt="Person" />
       <div className="flex flex-col  mt-2">
         <p className="text-lg text-left font-bold">Account & Finance</p>
         <p className="mb-4 text-sm text-left text-gray-800">300+  Jobs Available</p>
@@ -42,7 +42,7 @@ const LazyHome = () => {
                             
                         </div>
                         <div className='box-border bg-hobina shadow-lg px-5 py-5'>
-      <img className="object-cover w-26 h-24 rounded shadow" src="/public/assets/Icons/business1.png" alt="Person" />
+      <img className="object-cover w-26 h-24 rounded shadow" src="/assets/Icons/business1.png" alt="Person" />
       <div className="flex flex-col  mt-2">
         <p className="text-lg text-left font-bold">Creative Design</p>
         <p className="mb-4 text-sm text-left text-gray-800">100+ Jobs Available </p>

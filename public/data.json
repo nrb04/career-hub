@@ -1,7 +1,7 @@
 [
   {
     "id": "job001",
-    "company_logo": "/public/assets/Logo/ACME-Logo-1981.png",
+    "company_logo": "/assets/Logo/ACME-Logo-1981.png",
     "job_title": "Software Engineer",
     "company_name": "Acme Inc.",
     "remote_or_onsite": "Remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": "job002",
-    "company_logo": "/public/assets/Logo/co.png",
+    "company_logo": "/assets/Logo/co.png",
     "job_title": "Marketing Manager",
     "company_name": "Big Co.",
     "remote_or_onsite": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": "job003",
-    "company_logo": "/public/assets/Logo/1.png",
+    "company_logo": "/assets/Logo/1.png",
     "job_title": "Graphic Designer",
     "company_name": "Creative Agency",
     "remote_or_onsite": "Onsite",
@@ -55,7 +55,7 @@
   },
   {
     "id": "job004",
-    "company_logo": "/public/assets/Logo/3.png",
+    "company_logo": "/assets/Logo/3.png",
     "job_title": "Product Manager",
     "company_name": "Tech Startup",
     "remote_or_onsite": "Onsite",
@@ -73,7 +73,7 @@
   },
   {
     "id": "job005",
-    "company_logo": "/public/assets/Logo/2.png",
+    "company_logo": "/assets/Logo/2.png",
     "job_title": "Sales Representative",
     "company_name": "International Company",
     "remote_or_onsite": "Remote",
@@ -91,7 +91,7 @@
   },
   {
     "id": "job006",
-    "company_logo": "/public/assets/Logo/4.png",
+    "company_logo": "/assets/Logo/4.png",
     "job_title": "Human Resources Manager",
     "company_name": "Large Corporation",
     "remote_or_onsite": "Onsite",
@@ -109,7 +109,7 @@
   },
   {
     "id": "job008",
-    "company_logo": "/public/assets/Logo/google-1-11-1.png",
+    "company_logo": "/assets/Logo/google-1-11-1.png",
     "job_title": "Marketing Manager",
     "company_name": "Consumer Goods Company",
     "remote_or_onsite": "Onsite",
@@ -127,7 +127,7 @@
   },
   {
     "id": "job009",
-    "company_logo": "/public/assets/Logo/netflix-41.png",
+    "company_logo": "/assets/Logo/netflix-41.png",
     "job_title": "Software Engineer",
     "company_name": "Tech Giant",
     "remote_or_onsite": "Onsite",
@@ -145,7 +145,7 @@
   },
   {
     "id": "job010",
-    "company_logo": "/public/assets/evaly.png",
+    "company_logo": "/assets/evaly.png",
     "job_title": "Graphic Designer",
     "company_name": "Creative Agency",
     "remote_or_onsite": "Onsite",
