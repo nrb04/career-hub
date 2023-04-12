@@ -1,10 +1,11 @@
 
 # This is a Assignment base project (JobSeeker)
 
-A brief description of what this project does and who it's for
+Assignment done by Nihad Redoyan Badhon
 
 
-
+## font page
+<a href="https://imgbox.com/BmOH8Zz0" target="_blank"><img src="https://thumbs2.imgbox.com/00/1b/BmOH8Zz0_t.png" alt="image host"/></a>
 
 ## Deployment
 
@@ -23,15 +24,48 @@ yarn && yarn dev
 
 What did I learn while building this project? What challenges did I face and how did I overcome them?
 
+
+
+* id  - done
+* Company Logo - done 
+* Job title - done
+* Company Name -done
+* Remote or Onsite -done
+* Location -done
+* Fulltime / part-time -done
+* Salary -done
+* Job Description -done
+* Job Responsibility -done
+* Educational Requirements -done
+* Experiences -done
+* Contact information(phone, email) -done
+
+
+# Home page slice 4 data is show and show all data is show 
+# View details routing working all over 
+# Jobdetail page show Id base Iobpage 
+# Blog page done
+# Applied job and their to View detail page done
+
+
+
+
+
 * Chatgpt will take my job : 
 
-  For this project I take lot of help from chatgpt. like localstroage,array problem, datashow problem and others. 
+For this project I take lot of help from chatgpt.beside the google i love to take advice from chat gpt... like localstroage,sort by problem, datashow problem and others. 
  
- * fontpage reload time show me website errorpage. the reason is react dom, when it enter the child page after that get back to my home is found my error after again I click home then show my home page that behind i can not give an array in card data load. but actual problem is dom componads 
+ *When child page load then back in my home its show my error page. after reload its show ok then chat gpt suggest me inmap add array.isarray. i do but after website sekeleton done. study and found that in map i use link thats why its react dom show the problem. So everywhere we can not trust Chat gpt but its good 
+ 
  * 
     ````
      const filteredJobs = data.filter(job => appliedJobs.some(appliedJob => appliedJob.id === job.id));
      `````
      this also help from chatgpt. i dont want to get two data and make a array then loop in make final array,then final data show  . here my idea get two data and filter in and show the final data.
-     
-*  
+
+
+* Tried few time make a custom useHook . for my loader but its cannot working ... 
+
+ *  sort by fullied done by chatgpt. I do before sortby but after sortby its make a code .. 
+
+
