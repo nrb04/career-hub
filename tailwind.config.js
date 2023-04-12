@@ -54,7 +54,9 @@ content: [
         extend: {
             flexBasis: {
                 'basis-2/4': '50%',
-              'basis-1/4':'25%',  
+            'basis-1/4': '25%',
+            'basis-2/3': '66%',
+              'basis-1/3': '33%',
             },
             zIndex: {
                 '20': '20',

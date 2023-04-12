@@ -6,8 +6,8 @@ const Header = () => {
         <div>
       
 
-  <nav className= "md:fixed z-50 top-0 py-2 md:py-4">
-    <div className="container px-4 mx-auto md:flex md:items-center">
+  <nav className= "md:fixed z-50 top-0 py-2 py-4">
+    <div className="container px-4 mx-auto flex items-center">
 
       <div className="flex justify-between items-center">
         <Link to="/" ><img className='h-20 w-24 ml-16' src="/assets/Icons/MyIcon.png" alt="" /></Link>
