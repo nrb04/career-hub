@@ -45,7 +45,8 @@ const data = [
   },
 {
     subject: 'A7',
-    A: 59,
+  A: 59,
+  
  
     fullMark: 60,
   },

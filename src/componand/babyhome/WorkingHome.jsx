@@ -5,7 +5,6 @@ import './workingHome.css'
 
 const WorkingHome = () => {
   const jobcards = useLoaderData();
-  console.log(jobcards);
 
   const [showAll, setShowAll] = useState(false);
 
