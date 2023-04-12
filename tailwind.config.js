@@ -15,7 +15,8 @@ content: [
             'hobina': '#f5f3ff',
             'violet': '#3f3cbb',
             'batam': '#7E90FE',
-            'halkakala': '#F4F4F4',
+        'halkakala': '#F4F4F4',
+        'skyblue': '#0284c7',
             'himage': '#cffafe',
             'tahiti': {
                     100: '#cffafe',
