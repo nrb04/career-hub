@@ -15,7 +15,7 @@ const Header = () => {
    
       </div>
 
-      <div className="block  md:flex flex-col md:flex-row md:ml-96 mt-4  md:mt-0" >
+      <div className="block flex flex-row md:ml-96 mt-4  md:mt-0" >
   
         <NavLink to="/" exact activeClassName="active" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Home</NavLink>
         <NavLink to="/Statistics" activeClassName="active" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Statistics</NavLink>
